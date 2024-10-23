@@ -142,7 +142,7 @@ with alive_bar(len(ladder_dict['toplist'])) as bar:
         # print(json.dumps(user_dict))
         
         for game in user_dict:
-            get_replay(f'{game['id']}.json', f'info/all/{game['id']}.json')
+            get_replay(f'{game["id"]}.json', f'info/all/{game["id"]}.json')
             
             '''Uncomment this to copy all the information to separate directories'''
             # with open(f'info/all/{game["id"]}.json', 'r') as source_file:

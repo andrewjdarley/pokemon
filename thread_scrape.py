@@ -123,7 +123,7 @@ class ReplayDownloader:
                     executor.submit(
                         self._download_replay,
                         f"{game['id']}.json",
-                        f'info/all/{game['id']}.json'
+                        f'info/all/{game["id"]}.json'
                     ): game['id']
                     for game in user_dict
                 }
