@@ -1,0 +1,47 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+env/
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any local configuration files
+config.ini
+settings.json
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore backup files
+*~
+*.bak
+*.swp
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# IGNORE POKEMON
+*.json
