@@ -183,4 +183,4 @@ class ReplayDownloader:
 if __name__ == "__main__":
     # Initialize and run the downloader
     downloader = ReplayDownloader(max_workers=10)
-    downloader.download_ladder_replays('gen8ou')
+    downloader.download_ladder_replays('gen3ou')
